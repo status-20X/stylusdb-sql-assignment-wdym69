@@ -16,4 +16,8 @@ test('Parse SQL Query', () => {
         fields: ['id', 'name'],
         table: 'sample'
     });
+    // expect(parsed).toEqual({
+    //     fields: ['id','name','smth'],
+    //     table: 'sample'
+    // });
 });
